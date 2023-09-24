@@ -19,7 +19,7 @@ def home():
 
 if __name__ == '__main__':
     resume = {
-        "name": "Mario A. Pinzon C.",
+        "name": "Mario A Pinzon C.",
         "email": "tvpower89@hotmail.com",
         "phone": "510-205-2572",
         "linkedin": "https://www.linkedin.com/in/mario-pinzon-86b3411b7/",
