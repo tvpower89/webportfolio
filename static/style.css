@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -38,3 +42,5 @@ section {
 }
 
 /* Add more CSS styles as needed */
+
+
