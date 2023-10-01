@@ -8,15 +8,22 @@
 </head>
 <body>
 <header>
-    <h1>Mario Andres Pinzon Calderon</h1>
-    <p>Software Developer</p>
-    <nav class="nav__links">
-        <ul class="nav__link__list">
-            <li class="nav__link"><a href="#about">About</a></li>
-            <li class="nav__link"><a href="#education">Education</a></li>
-            <li class="nav__link"><a href="#experience">Experience</a></li>
-            <li class="nav__link"><a href="#projects">Projects</a></li>
-            <li class="nav__link"><a href="#skills">Skills</a></li>
+    <div class="header-content">
+        <img src="../static/marioPinzon.jpg" alt="Your Name Image">
+        <div class="name">
+            <h1>Mario Andres Pinzon Calderon</h1>
+            <p>Software Developer</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li class="nav__links"><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Skills</a></li>
         </ul>
     </nav>
 </header>
@@ -103,11 +110,15 @@
 <section id="projects">
    <h2>Projects</h2>
 
-   <a href="https://github.com/tvpower89/DVC-Campus-Navigator" target="_blank"><strong>Campus Navigator</strong></a>
-   <p>Integrated Flask framework to create a full-stack site for campus navigation.</p>
-   <p>Utilized Map Nodes and Dijkstra’s algorithm to improve navigation speeds and path efficiency by 22%.</p>
-   <p>Implemented JS front end with Python backend.</p>
-   <p>Technical Skills: Python, Django, Javascript, HTML, CSS, Flask.</p>
+    <div class="project-container">
+       <a href="https://github.com/tvpower89/DVC-Campus-Navigator" target="_blank"><strong>Campus Navigator</strong></a>
+       <p>Integrated Flask framework to create a full-stack site for campus navigation.</p>
+       <p>Utilized Map Nodes and Dijkstra’s algorithm to improve navigation speeds and path efficiency by 22%.</p>
+       <p>Implemented JS front end with Python backend.</p>
+       <p>Technical Skills: Python, Django, Javascript, HTML, CSS, Flask.</p>
+       <!-- Add your GIF here -->
+       <img src="path-to-your-gif.gif" alt="Project GIF">
+   </div>
 
    <a href="https://github.com/JohannesBruett/MetroHacks" target="_blank"><strong>EDU-Nick</strong></a>
    <p>Utilized openAI libraries to perform math, computer science, and biology problem evaluations.</p>
@@ -155,6 +166,31 @@
    <p><strong>Miscellaneous:</strong></p>
    <p>Fluent in Spanish, Basic Mandarin, Procreate.</p>
 </section>
+
+<section id="resume">
+   <h2>Resume</h2>
+   <!-- Add a download button for your resume -->
+   <a href="https://file.io/DUkBvmDclbqu" target="_blank">
+      <button>Download Resume</button>
+   </a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mgejpkee" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+</section>
+
 
 
 </body>
