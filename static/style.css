@@ -50,3 +50,19 @@ header img {
     top: 0;
     left: 0;
 }
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add spacing between projects if needed */
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-gif {
+    width: 1000px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
